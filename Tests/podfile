@@ -1,0 +1,10 @@
+xcodeproj 'AboutYouShop-iOS-SDK-Tests'
+workspace '../AboutYouShop-iOS-SDK'
+inhibit_all_warnings!
+
+target :ios do
+  platform :ios, '7.0'
+  link_with 'iOS Tests'
+  pod 'AboutYouShop-iOS-SDK', :path => '../'
+  pod 'XCAsyncTestCase'
+end

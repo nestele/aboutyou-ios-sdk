@@ -1,0 +1,3 @@
+platform :ios, '7.0'
+
+pod 'AboutYouShop-iOS-SDK', :path => '../AboutYouShop-iOS-SDK.podspec'
